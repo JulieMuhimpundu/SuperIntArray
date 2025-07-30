@@ -1,3 +1,13 @@
+/*arr1: [10, 2, 3, 4, 5]
+arr2: [100]
+arr3 (copy of arr1): [10, 2, 3, 4, 5]
+arr4 (arr1 + arr2): [10, 2, 3, 4, 5, 100]
+arr4[0]: 10
+arr4 after changing index 0: [999, 2, 3, 4, 5, 100]
+Max: 999
+Min: 2
+Mean: 185.5*/
+
 #include "SuperIntArray.h"
 #include <iostream>
 #include <vector>
